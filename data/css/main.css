@@ -1,0 +1,23 @@
+body {
+	background-color: #3972a8;
+	position: absolute;
+	width: 240px;
+	margin:0px auto;
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	background-color: #263849;
+	background-image: -moz-linear-gradient(center top , #3C4C5B, #263849);
+	border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25);
+}
+
+p {
+	font-weight: bold;
+	color: #1C1F26;
+}
