@@ -9,5 +9,5 @@ button.addEventListener("click", function(event){
 });
 
 self.port.on("send", function(translated_text){
-	  parag.innerHTML = translated_text.capitalize();
+	  parag.textContent = translated_text.capitalize();
 });
