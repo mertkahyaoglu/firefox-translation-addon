@@ -2,8 +2,8 @@
   "name": "ingilizceceviri",
   "title": "İngilizce Çeviri",
   "id": "jid1-T4K5zRaJNmQfHQ",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "a basic translation plugin from English to Turkish",
+  "author": "Mert Kahyaoğlu",
   "license": "MPL 2.0",
   "version": "0.1"
 }
