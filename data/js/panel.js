@@ -1,7 +1,8 @@
-var text;
-var textArea = document.getElementById("edit-box");
-var button 	 = document.getElementById("btn-translate");
-var parag	 = document.getElementById("result");
+var text,
+	textArea = document.getElementById("edit-box"),
+	button 	 = document.getElementById("btn-translate"),
+	parag	 = document.getElementById("result"),
+	textArea = document.getElementById("edit-box");
 
 button.addEventListener("click", function(event){
 	  text = textArea.value;
@@ -10,4 +11,8 @@ button.addEventListener("click", function(event){
 
 self.port.on("send", function(translated_text){
 	  parag.textContent = translated_text.capitalize();
+});
+
+self.port.on("show", function onShow() {
+  textArea.focus();
 });
